@@ -1,8 +1,8 @@
-# 콘텐츠리움 숏폼 스튜디오
+# 숏폼 스튜디오
 
 원본 영상을 가져와 하이라이트를 검토하고, 제목·음성 자막·화면 구도를 편집해 세로 영상으로 출력하는 Windows 프로그램입니다.
 
-[최신 설치파일과 변경 사항](https://github.com/contentriumkorea/contentrium-shortform-studio/releases/latest)
+[최신 설치파일과 변경 사항](https://github.com/contentriumkorea/shortform-studio/releases/latest)
 
 ## 설치와 업데이트
 
