@@ -4,6 +4,13 @@
 
 [최신 설치파일과 변경 사항](https://github.com/contentriumkorea/shortform-studio/releases/latest)
 
+## 0.9.3 변경 사항
+
+Chat GPT의 후보 선정과 요약 제목 검토에 프로그램 전용 영상 제작 지침을 적용했습니다.
+지침 버전과 내용 식별값을 실행 결과에 기록하고, 지침이 달라지면 기존 분석 캐시를 구분합니다.
+HyperFrames는 제작 원칙만 참고하며 별도 엔진이나 유료 API를 설치·추가하지 않습니다.
+기존 편집·렌더러를 유지하는 업데이트이며 새로운 자동 배치 엔진이나 멀티 모델 오케스트레이터를 추가한 버전은 아닙니다.
+
 ## 설치와 업데이트
 
 1. 최신 릴리스에서 `ContentriumShortformStudio-Setup.exe`를 받습니다.
