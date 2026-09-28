@@ -4,7 +4,13 @@
 
 [최신 설치파일과 변경 사항](https://github.com/contentriumkorea/shortform-studio/releases/latest)
 
-## 0.11.0 변경 사항
+## 0.12.0 변경 사항 및 알려진 한계
+
+Chat GPT가 전사 조회·동의한 화면 검토·부분 음성 재인식·렌더링 도구를 요청하고 출력 검증을 거치는 제작 구조를 반영했습니다. 자동 분업은 Astra medium 총괄, Sol xhigh 계획, Luna max 실무이며 단순 보조는 Luna high입니다. 직접 선택은 선택한 GPT-6 모델과 지원 추론 수준을 유지합니다. 자동 편집의 공통 기준은 30~60초와 상단 제목·음성 자막의 가로 중앙 정렬입니다.
+
+**현재 실제 영상 시험에서 AI 편집 응답의 형식 검증 실패(`invalid_response` / `editor_response_invalid`)가 남아 있습니다. 오류 해결이나 자동 완성본 품질이 검증된 버전은 아닙니다.** 실패 시 원본과 기존 편집본은 보존하고 잘못된 출력을 성공으로 표시하지 않습니다. 반복 재시도는 계정 사용량을 소모할 수 있습니다. [자세한 변경 사항](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.12.0)을 확인하세요.
+
+## 0.11.0 변경 사항 (이전 버전)
 
 영상 중앙에서 Chat GPT / 로컬을 선택하고 준비 상태를 확인한 뒤 제작합니다. 고급 설정에서는 GPT-6 자동 분업 또는 단일 모델·추론 수준을 선택합니다. 자동은 Sol medium이 계획하고 필요한 경우 Luna medium 작업과 Astra medium 검토를 요청합니다. 모든 작업이 세 모델을 반드시 거치는 방식은 아닙니다.
 
