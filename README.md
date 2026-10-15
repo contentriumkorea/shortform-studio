@@ -1,3 +1,15 @@
+# 최신 버전 0.14.2 — 그레이 UI와 간결한 설정
+
+작업 화면은 차콜·그레이 명암으로, 본문은 연한 회색으로 정리했습니다. 완전한 흰색은 주요 실행·선택·포커스에만 사용합니다. 설정창은 기본 항목과 접힌 세부 옵션으로 나누고 체크박스 정렬·저장 감지·좁은 창 배치를 개선했습니다. 영상·사진·프로젝트 디자인의 색상은 그대로 유지됩니다.
+
+- [설치형 — 고정 경량 설치기, 약 2.45 MB](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 최신 서명 배포 정보를 읽고 최신 본체를 내려받습니다. 이번 릴리스에서 설치기를 다시 만들거나 교체하지 않았습니다.
+- [포터블 — 0.14.2 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.14.2/ShortformSTUDIO-Portable-0.14.2.zip): 새 폴더에 풀어 사용하세요.
+- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.14.2)
+
+실행 중인 작업을 저장하고 프로그램을 정상 종료한 뒤 업데이트하세요. 기존 프로젝트·설정은 보존합니다. 첫 실행에는 공식 런타임 다운로드를 위한 인터넷과 여유 공간이 필요합니다. 이 버전은 UI·설정 개선이며 자동 편집 품질 완성을 의미하지 않습니다. 원문 자막·발언·제목·편집 결과는 검토가 필요합니다.
+
+---
+
 # Shortform STUDIO
 
 ## 0.14.1 — Black & White UI · 설치형 / 포터블
