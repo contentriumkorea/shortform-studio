@@ -1,5 +1,26 @@
 # Shortform STUDIO
 
+## 0.14.0 — 설치형 / 포터블
+
+개인 ChatGPT 로그인 + **GPT-6.1 Sol high**로 유튜브 개별 링크나 로컬 원본에서 숏폼을 만들고, 문장 중심 또는 고급 편집창에서 직접 고칠 수 있습니다. 자동 결과는 게시 전 원문 확인이 필요한 **검토용**입니다.
+
+- [설치형 — 약 2.45MB 고정 온라인 설치기](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe)
+- [포터블 및 최신 앱 payload](https://github.com/contentriumkorea/shortform-studio/releases/latest)
+- [0.14.0 변경 사항·검증·지원 제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.14.0)
+
+작은 설치기는 버전별 앱 payload와 분리되어, 실행할 때 최신 서명 정보를 확인한 후 프로그램과 편집 엔진을 받습니다. 일반 앱 업데이트에는 설치기를 다시 만들지 않습니다. 보안·설치 프로토콜 변경은 예외입니다. 최초 준비에는 인터넷과 3GB 이상의 공간이 필요합니다.
+
+설치형과 포터블은 표시 이름·프로젝트·로그인 저장소가 분리됩니다. 포터블 업데이트는 새 ZIP을 별도 폴더에 푸는 방식이며 설치형을 덮어쓰지 않습니다.
+
+실제 인터뷰로 33.6초 영상과 편집 프로젝트 생성, 별도 37.2초 재출력 및 고급 편집 작업본 저장을 검증했습니다. 자막 정확도·최종 콘텐츠 승인은 별도 검토가 필요합니다. 제작 후 대화형 AI 부분 수정과 일부 고급 편집창 외부 기능은 미지원이며, YouTube 접근 제한을 우회하지 않습니다. 이전 릴리스의 모델·화면·검증 설명은 해당 버전에만 적용됩니다.
+
+업데이트는 Ed25519/SHA-256으로 확인합니다. Windows 게시자(Authenticode) 서명은 아직 없으며 보안 설정을 끄지 마세요. 원본·계정·프로젝트·관리자 키·비공개 앱 소스는 이 저장소에 공개하지 않습니다.
+
+---
+
+## 이전 버전 기록
+
+
 원본 영상을 가져와 하이라이트를 검토하고, 제목·음성 자막·화면 구도를 편집해 세로 영상으로 출력하는 Windows 프로그램입니다.
 
 [최신 설치파일과 변경 사항](https://github.com/contentriumkorea/shortform-studio/releases/latest)
