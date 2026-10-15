@@ -1,5 +1,23 @@
 # Shortform STUDIO
 
+## 0.14.1 — Black & White UI · 설치형 / 포터블
+
+검은 사이드바와 흰 작업영역, 포인트 컬러 없는 조작 화면으로 바뀌었습니다. 문장 중심 편집과 프로젝트·휴지통·설정 이동을 정리했고, 정밀 편집은 필요할 때 펼칩니다. 원본 영상과 프로젝트에 지정된 색은 바꾸지 않습니다.
+
+- [설치형 — 약 2.45MB 고정 온라인 설치기](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe)
+- [포터블 0.14.1 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.14.1/ShortformSTUDIO-Portable-0.14.1.zip)
+- [0.14.1 변경 사항·검증 범위·지원 제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.14.1)
+
+고정 설치기는 이번에도 변경하지 않았습니다. 실행하면 최신 서명 manifest를 확인해 버전별 앱 payload와 편집 엔진을 받습니다. 일반 UI/기능 업데이트에는 작은 설치기를 다시 만들지 않습니다. 최초 준비에는 인터넷과 3GB 이상의 여유 공간이 필요하며, 설치형과 포터블의 저장소는 분리됩니다.
+
+전체 Python 회귀 3,864개, JavaScript 286개, 렌더된 UI 8개를 통과했고 실제 빌드 리소스로도 UI 검사를 통과했습니다. 네이티브 창 테스트 5개는 제외했으며, 열린 사용자 창의 버튼을 자동 조작한 검증이 아닙니다.
+
+**자동 영상은 게시 전 원문 확인이 필요한 검토용입니다.** 이번 릴리스는 UI 변경이며 새 유료 AI 제작은 하지 않았습니다. 기존 실제 인터뷰 출력의 자막 12개 중 9개는 원문 대조 대상입니다. 대화형 AI 부분 수정 및 일부 고급 편집창 외부 기능의 제한은 유지됩니다.
+
+Ed25519/SHA-256 업데이트 검증과 Windows Authenticode 게시자 인증서는 다릅니다. Windows 게시자 인증서는 아직 없으며 보안 설정을 끄지 마세요. 아래는 이전 버전의 기록입니다.
+
+---
+
 ## 0.14.0 — 설치형 / 포터블
 
 개인 ChatGPT 로그인 + **GPT-6.1 Sol high**로 유튜브 개별 링크나 로컬 원본에서 숏폼을 만들고, 문장 중심 또는 고급 편집창에서 직접 고칠 수 있습니다. 자동 결과는 게시 전 원문 확인이 필요한 **검토용**입니다.
