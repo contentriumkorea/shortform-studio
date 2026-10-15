@@ -1,14 +1,14 @@
-# 최신 버전 0.15.0 — 프로젝트 하나에서 완성 영상까지
+# 최신 버전 0.15.1 — 프로젝트 하나에서 완성 영상까지
 
-‘프로젝트’와 ‘영상 작업’을 하나로 통일했습니다. 프로젝트 안에서 YouTube 링크 또는 원본 영상 추가 → AI 편집 → 문장 수정 → 내보내기로 이어집니다. 같은 원본의 여러 결과와 기존 편집을 함께 관리하며, 편집창·설정에서 원래 프로젝트로 돌아옵니다. Windows YouTube 제목 인코딩과 단계 진행 기록 오류도 수정했습니다.
+YouTube 링크 또는 원본 영상 추가 → AI 편집 → 문장 수정 → 내보내기를 프로젝트 안에서 이어갑니다. 0.15.1은 잘못된 편집 코드를 영상 변환 전에 검사해 불필요한 대기를 줄입니다. 화면·원문 연결·음량 검사는 그대로 유지합니다.
 
-실제 제작에서 확인한 AI 검토 이미지 전송 실패와 동일 원본의 반복 변환을 개선했습니다. 변환 속도와 해당 단계의 예상 남은 시간은 측정값으로 표시합니다. YouTube가 내려받기를 거절하는 경우는 남아 있으며, 이를 성공으로 표시하거나 AI를 먼저 호출하지 않습니다.
+- [설치형 — 고정 경량 설치기, 약 2.45 MB](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 실행할 때 최신 서명 정보를 확인해 본체를 내려받습니다. 설치기는 교체하지 않았습니다.
+- [포터블 — 0.15.1 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.15.1/ShortformSTUDIO-Portable-0.15.1.zip): 쓰기 가능한 새 폴더에 풀어 사용하세요.
+- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.15.1)
 
-- [설치형 — 고정 경량 설치기, 약 2.45 MB](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 최신 서명 정보를 읽고 본체를 내려받습니다. 설치기는 교체하지 않았습니다.
-- [포터블 — 0.15.0 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.15.0/ShortformSTUDIO-Portable-0.15.0.zip): 쓰기 가능한 새 폴더에 풀어 사용하세요.
-- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.15.0)
+실제 YouTube 입력으로 32.47초 영상과 수정 가능한 프로젝트를 만들고, 수정·저장 후 재출력까지 검증했습니다. 자막 2곳의 인식 불확실성은 남아 있습니다. 결과는 게시 전 원문·제목·편집점을 확인해야 하는 검토 초안이며, 기술 검사 통과가 사람이 검수한 완성도를 뜻하지는 않습니다. YouTube의 HTTP403/429 거절도 모든 링크에서 해결된 것은 아닙니다.
 
-업데이트 전에 편집 내용을 저장하고 앱을 정상 종료하세요. 기존 프로젝트·설정·활성화·원본은 보존합니다. 첫 실행에는 공식 런타임 다운로드를 위한 인터넷과 여유 공간이 필요합니다. 출력의 원문 자막·제목·발언·편집점·화면·음량은 게시 전에 검토해 주세요. 기술 검증과 자동 편집 품질 완성은 구분하며, 종료 미확인 AI 실행을 자동 재시도하지 않습니다.
+업데이트 전에 편집 내용을 저장하고 앱을 정상 종료하세요. 기존 프로젝트·설정·활성화·원본은 보존합니다. 첫 실행에는 공식 런타임 다운로드를 위한 인터넷과 여유 공간이 필요합니다. Windows 게시자 인증서(Authenticode)는 없으며, 업데이트 정보의 Ed25519 서명과 별개입니다.
 
 ---
 
