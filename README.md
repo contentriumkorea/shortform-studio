@@ -1,12 +1,12 @@
-# 최신 버전 0.15.3 — 프로젝트 하나에서 완성 영상까지
+# 최신 버전 0.15.4 — 프로젝트 하나에서 완성 영상까지
 
-YouTube 링크 또는 원본 영상 추가 → AI 편집 → 문장 수정 → 내보내기를 프로젝트 안에서 이어갑니다. 0.15.3는 실제 단어 시각을 근거로 긴 자막을 짧게 나눠 표시하면서도, 문장 수정·순서 변경·삭제는 문장 전체 단위로 유지합니다. 확인되지 않은 단어 시각을 추정하거나 원본 발언을 자르지 않습니다.
+YouTube 링크 또는 원본 영상 추가 → AI 편집 → 문장 수정 → 내보내기를 프로젝트 안에서 이어갑니다. 0.15.4는 두 줄·강조색 제목을 문구별로 직접 수정하면서 원래 줄바꿈과 강조 모양을 보존합니다. 기존 문장 중심 자막 수정·순서 변경·삭제도 유지합니다.
 
 - [설치형 — 고정 경량 설치기, 약 2.45 MB](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 실행할 때 최신 서명 정보를 확인해 본체를 내려받습니다. 설치기는 교체하지 않았습니다.
-- [포터블 — 0.15.3 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.15.3/ShortformSTUDIO-Portable-0.15.3.zip): 쓰기 가능한 새 폴더에 풀어 사용하세요.
-- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.15.3)
+- [포터블 — 0.15.4 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.15.4/ShortformSTUDIO-Portable-0.15.4.zip): 쓰기 가능한 새 폴더에 풀어 사용하세요.
+- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.15.4)
 
-보관된 실제 YouTube 원본으로 32.47초 출력의 긴 자막을 네 번에 나눠 표시하고, 원본 편집 구간·오디오 대조·수정 및 되돌리기를 검증했습니다. 인식이 불확실한 자막과 단어의 검토 표시는 그대로 유지합니다. 새 YouTube/AI 시험의 결과와 제한은 연결된 릴리스 설명에 기록합니다. 결과는 게시 전 원문·제목·편집점을 확인해야 하는 검토 초안이며, 기술 검사 통과가 사람이 검수한 완성도를 뜻하지는 않습니다. YouTube의 HTTP403/429 거절도 모든 링크에서 해결된 것은 아닙니다.
+실제 YouTube/AI 실행에서 생성된 30.8초 프로젝트를 분리 복사해 제목 수정·크기 변경·되돌리기·실제 재출력을 검증했습니다. 새 AI 호출 없이 원본 편집 구간과 음성을 보존했으며, 19개 자막의 인식 불확실성도 유지했습니다. 숨김 요소나 복잡한 스타일 등 간편 수정의 제한은 연결된 릴리스 설명에 기록합니다. 결과는 게시 전 원문·제목·편집점을 확인해야 하는 검토 초안이며, 기술 검사 통과가 사람이 검수한 완성도를 뜻하지는 않습니다. YouTube의 HTTP403/429 거절도 모든 링크에서 해결된 것은 아닙니다.
 
 업데이트 전에 편집 내용을 저장하고 앱을 정상 종료하세요. 기존 프로젝트·설정·활성화·원본은 보존합니다. 첫 실행에는 공식 런타임 다운로드를 위한 인터넷과 여유 공간이 필요합니다. Windows 게시자 인증서(Authenticode)는 없으며, 업데이트 정보의 Ed25519 서명과 별개입니다.
 
