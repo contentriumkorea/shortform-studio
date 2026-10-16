@@ -1,14 +1,14 @@
-# 최신 버전 0.15.7 — 프로젝트 하나에서 완성 영상까지
+# 최신 버전 0.15.8 — 프로젝트 하나에서 완성 영상까지
 
-YouTube 링크 또는 원본 영상 추가 → AI 편집 → 문장 수정 → 내보내기를 프로젝트 안에서 이어갑니다. 0.15.7은 음성 재검사 때 한 발언의 불확실성이 관계없는 발언 전체에 표시되던 문제를 수정했습니다. 실제 시간으로 연결된 발언끼리 비교하고, 원래 단어와 문장의 낮은 신뢰도·불확실성은 유지합니다. 기존 프로젝트와 자막 캐시는 임의로 수정하지 않습니다.
+YouTube 링크 또는 원본 영상 추가 → AI 편집 → 문장 수정 → 내보내기를 프로젝트 안에서 이어갑니다. 0.15.8은 음성인식 경계에서 끊긴 발언을 원본 구간과 측정 단어 시각을 보존해 연결할 수 있도록 개선했습니다. 연결된 문장의 수정·이동·삭제와 전체 편집창 저장도 같은 원본 정보를 유지합니다. 화자나 인식이 불확실하면 검토 경고를 남깁니다.
 
-- [설치형 — 고정 경량 설치기, 약 2.45 MB](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 실행할 때 최신 서명 정보를 확인해 본체를 내려받습니다. 설치기는 교체하지 않았습니다.
-- [포터블 — 0.15.7 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.15.7/ShortformSTUDIO-Portable-0.15.7.zip): 쓰기 가능한 새 폴더에 풀어 사용하세요.
-- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.15.7)
+- [설치형 — 고정 경량 설치기, 약 2.45 MB](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 최신 서명 정보를 확인해 본체를 내려받습니다. 설치기는 교체하지 않았습니다.
+- [포터블 — 0.15.8 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.15.8/ShortformSTUDIO-Portable-0.15.8.zip): 쓰기 가능한 새 폴더에 풀어 사용하세요.
+- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.15.8)
 
-이번 검증은 이전 실제 유튜브 제작 시험의 42.8초 음성인식 기록을 변경 전후 코드로 재실행한 것입니다. 원문·시간·신뢰도 값과 해당 발언의 기존 경고는 보존했습니다. 새로운 유료 AI 제작이나 인식 정확도 향상으로 보고하지 않습니다.
+이번 검증은 이전 실제 YouTube·개인 ChatGPT·GPT-6.1 Sol high 시험의 30.2초 프로젝트를 별도로 복사해 문장 연결·직접 수정·이동·삭제·전체 편집창 저장·되돌리기·재렌더와 음성/화면 검사를 수행한 것입니다. 원본과 이전 출력·프로젝트는 보존했습니다. 새로운 유료 AI 제작이나 사람의 음성 청취 승인으로 보고하지 않습니다.
 
-앞선 실제 YouTube 링크·개인 ChatGPT 로그인·GPT-6.1 Sol high 시험에서 나온 30.2초 영상과 수정 가능한 프로젝트도 보존했습니다. 원본 음성·출력 파일의 기술 검사, 제목·문장 수정, 순서 변경·삭제·스타일 변경과 되돌리기는 검증됐지만, 저장된 자막 경고와 검토 초안 상태는 유지됩니다. 게시 전 원문·제목·편집점을 확인해야 하며 기술 검사 통과가 사람이 검수한 완성도를 뜻하지 않습니다. YouTube의 HTTP403/429 거절도 모든 링크에서 해결된 것은 아닙니다.
+자동 편집 품질은 계속 개선 중입니다. 게시 전에 원문·제목·편집점을 확인해야 하며, 검토 경고가 있는 초안을 완성본으로 자동 승인하지 않습니다. 단어 시각에 맞춘 자막 글은 문장 편집에서 수정하세요. 모든 YouTube 링크의 HTTP403/429 거절이 해결된 것은 아닙니다.
 
 업데이트 전에 편집 내용을 저장하고 앱을 정상 종료하세요. 기존 프로젝트·설정·활성화·원본은 보존합니다. 첫 실행에는 공식 런타임 다운로드를 위한 인터넷과 여유 공간이 필요합니다. Windows 게시자 인증서(Authenticode)는 없으며, 업데이트 정보의 Ed25519 서명과 별개입니다.
 
