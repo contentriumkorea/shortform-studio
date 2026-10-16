@@ -1,10 +1,10 @@
-# 최신 버전 0.16.1 — 실버 리퀴드 글래스
+# 최신 버전 0.16.2 — 시작 로고 가장자리 보정
 
-밝은 무채색·반투명 패널·부드러운 움직임과 배경 없는 실버 로고로 화면을 정리했습니다. 푸른빛과 포인트 컬러 없이 프로젝트, 원본 제작, 문장 편집과 설정을 이어갑니다. macOS에서 영감을 받은 앱 디자인이며 Apple 제품 또는 macOS 네이티브 프로그램은 아닙니다.
+시작 화면의 실버 로고가 검고 톱니처럼 보이던 축소 표시를 보정했습니다. 전용 크기로 알파 경계를 필터링해 표시하고 배경과 가운데 재생 모양은 투명하게 유지합니다. 밝은 무채색·반투명 패널과 프로젝트·원본 제작·문장 편집 흐름은 그대로입니다. macOS에서 영감을 받은 앱 디자인이며 Apple 제품 또는 macOS 네이티브 프로그램은 아닙니다.
 
 - [설치형 — 약 2.45 MB 고정 경량 설치기](https://github.com/contentriumkorea/shortform-studio/releases/download/installer/ShortformSTUDIO-Install.exe): 같은 설치기가 최신 서명 정보와 본체를 받습니다.
-- [포터블 — 0.16.1 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.16.1/ShortformSTUDIO-Portable-0.16.1.zip): 쓰기 가능한 별도 폴더에 풉니다.
-- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.16.1)
+- [포터블 — 0.16.2 ZIP](https://github.com/contentriumkorea/shortform-studio/releases/download/v0.16.2/ShortformSTUDIO-Portable-0.16.2.zip): 쓰기 가능한 별도 폴더에 풉니다.
+- [변경 사항·검증 범위·제한](https://github.com/contentriumkorea/shortform-studio/releases/tag/v0.16.2)
 
 프로젝트 폴더에 여러 원본을 모으고, 한 원본에서 여러 편과 편집 버전을 만듭니다. 분석자료를 재사용하고 문장 중심으로 직접 수정합니다. 6가지 출력 배치와 왼쪽 아래 ChatGPT 연결·관측 사용량 표시를 유지합니다. 움직임 줄이기를 지원하고 실제 작업 상태와 측정값만 표시합니다.
 
