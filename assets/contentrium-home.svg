@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="44" viewBox="0 0 244 44" role="img" aria-label="콘텐츠리움 홈페이지">
+  <rect width="244" height="44" rx="9" fill="#303030"/>
+  <text x="20" y="28" fill="#f6f6f6" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" font-size="16" font-weight="600">콘텐츠리움 홈페이지</text>
+  <path d="M213 16l6 6-6 6m-7-6h12" fill="none" stroke="#f6f6f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
